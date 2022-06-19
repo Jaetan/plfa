@@ -47,12 +47,12 @@ inv-z≤n z≤n = refl
 
 -- Let R be defined on ℕ × ℕ by xRy iff either x = y or x < y. R is
 -- reflexive by definition. From the properties of <, we deduce that R
--- is transitive but not symmetric.
+-- is transitive but not antisymmetric.
 
 -- Give an example of a partial order that is not a total order.
 
 -- Let | be defined on ℕ × ℕ by x|y iff x divides y. This relation is
--- reflexive, symmetric and transitive, but not all elements are
+-- reflexive, antisymmetric and transitive, but not all elements are
 -- comparable: for example, neither 2|3 nor 3|2 hold.
 
 ≤-refl : ∀ {n : ℕ} → n ≤ n
